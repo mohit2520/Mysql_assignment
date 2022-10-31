@@ -2,7 +2,7 @@
 
 SELECT COUNT(*) 
 FROM SalesPeople
-WHERE NAME LIKE 'A%','a'%;
+WHERE NAME LIKE 'A%' or 'a'%;
 
 # 2.Display all the Salesperson whose all orders worth is more than Rs. 2000.
 
@@ -20,7 +20,7 @@ SELECT *
 
 SELECT *
   FROM SalesPeople
-  WHERE City = "Newyork" or City="Paris";
+  WHERE City = "Newyork" or "Paris";
   
 # 5.Display the number of orders taken by each Salesperson and their date of orders.
 
